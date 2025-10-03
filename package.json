@@ -1,13 +1,30 @@
 {
-  "name": "snake_game_node",
+  "name": "@marianonube-cpu/snake-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Un simple juego de la serpiente (snake) para jugar en la terminal, creado con Node.js.",
   "main": "game.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "play-snake-node": "game.js"
   },
-  "keywords": [],
-  "author": "",
+  "scripts": {
+    "start": "node game.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianonube-cpu/snake-node.git"
+  },
+  "keywords": [
+    "snake",
+    "game",
+    "terminal",
+    "console",
+    "nodejs"
+  ],
+  "author": "marianonube-cpu",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marianonube-cpu/snake-node/issues"
+  },
+  "homepage": "https://github.com/marianonube-cpu/snake-node#readme",
   "type": "commonjs"
 }
